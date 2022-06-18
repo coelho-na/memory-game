@@ -3,8 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./src/assets/css/reset.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./src/assets/css/global.css" />
+    <link rel="stylesheet" href="./src/assets/css/login.css" />
+    <script defer src="./src/assets/js/login.js"></script>
+    <title>Memory Game | Login</title>
   </head>
-  <body></body>
+  <body>
+    <form class="login login__form">
+      <div class="login__header">
+        <img
+          class="login__image"
+          src="./src/assets/images/brain.png"
+          alt="Brain Icon"
+        />
+        <h1 class="login__title">Memory Game</h1>
+      </div>
+      <input type="text" placeholder="Name" class="login__input" />
+      <button disabled class="login__button" type="submit">Play</button>
+    </form>
+  </body>
 </html>
